@@ -22,7 +22,7 @@ abstract class AbstractRenderer implements RendererInterface
     protected $container;
 
     /** @var string */
-    protected $type;
+    protected $type = '';
 
     /** @var DOMElement */
     protected $rootElement;
